@@ -1,0 +1,12 @@
+   //zadanie 7
+    /*
+     kod:Vector v1(100,1);
+  Vector v2(100,2);
+  Vector res(100);
+  for(size_t j = 0 ;j< 10000000;++j){
+    res=1.2*v1+v1*v2+v2*0.5;
+    f(res);
+  }
+     możemy zauważyć, że zdefiniowane operatory arytmetyczne dla klasy wektora zostały zaimplementowane w taki sposób, aby działały na wektorach o takiej samej długości, co pozwala na wygodne operowanie na wektorach.
+     Wydajność implementacji szablonów wyrażeń może być znacznie lepsza niż tradycyjnej implementacji operatorów arytmetycznych, szczególnie gdy operacje są wykonywane na dużych zbiorach danych. Wynika to z faktu, że szablony wyrażeń mogą być optymalizowane przez kompilator w sposób bardziej efektywny, co prowadzi do szybszych obliczeń.
+     */
